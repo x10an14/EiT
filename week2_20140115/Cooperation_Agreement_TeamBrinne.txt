@@ -9,6 +9,7 @@ Attendance and contribution in both the project report and the process report:
 	You can warn absence "for free" (beforehand) once, but the second time you need to bring chocolate as described above.
 	People have to finish their tasks independently of their absences.
 	No groupmember has to stay later than 17:30 on a workday, unless the group has otherwise agreed before said workday.
+	If a groupmember does not finish an agreed upon task, said groupmember has to finish said task on the next workday (and stay late if necessary), as well as finish all tasks for that next workday.
 
 Expectations for the individual's contribution:
 	We aim for the best! Grade A all around!
