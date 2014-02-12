@@ -1,15 +1,26 @@
 Breakdown of my work:
 	1. With Sajana:
-		Find out what input and algorithm is needed for the sediment data and pathing.
-		~1-2 hours. (Not sure because I want to understand the way of thinking).
+		Find out what input and algorithm is needed for the sediment data and pathing. ~1-2 hours. (Not sure because I want to understand the way of thinking).
+		Find out what sensor are needed for the survey. (Should just be ask and tell, the time estimate depends on Sajana).
 	2. With Saidee:
 		Find out dimensions of the boat, the location of the sensors and GPS, how robust the hardware for the system will be (water tolerance and more), and how to control the engine.
+			//Check http://www.asvglobal.com/files/c-cat-2-data-sheet-template.pdf
+			The system will be in a water tight payload casing. Might need to make a drillhole to connect it to powersupply and sensors.
 		~1-2 hours. (If everything has been decided, then it will just take 5 minutes. But there may be some discussion?)
 	3. With Berhane and Mihail:
 		Find energy limitations for onboard computer system.
 		~20 minutes. Just to confirm when all the hardware has been "chosen" if it fits okay.
 	4. Alone:
 		- Decide/figure out type of antenna and communication protocol (~6-10 hours)
+			//Check http://www.asvglobal.com/files/c-cat-2-data-sheet-template.pdf
 		- Collect and design the program structure (~ 2-4 hours, depending on how nice graphs/diagrams we want)
 		- Figure out how to connect with/use GPS (Don't really know, guesstimate: 2-4 hours?)
+			//Check http://www.asvglobal.com/files/c-cat-2-data-sheet-template.pdf
 		- Find hardware for embedded system and antenna (Guesstimate: ~2-4 hours)
+
+
+GPS Accuracy:
+	Measured with the following numbers:
+	X cm, and Y ppm.
+	This means a base error-margin of X, plus (distance to 2nd station/10^6)*y = total error.
+		As long as 2nd station is within 20 km of coordinate sampling on the horizontal plane.
