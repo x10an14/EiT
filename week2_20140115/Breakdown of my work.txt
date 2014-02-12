@@ -1,0 +1,15 @@
+Breakdown of my work:
+	1. With Sajana:
+		Find out what input and algorithm is needed for the sediment data and pathing.
+		~1-2 hours. (Not sure because I want to understand the way of thinking).
+	2. With Saidee:
+		Find out dimensions of the boat, the location of the sensors and GPS, how robust the hardware for the system will be (water tolerance and more), and how to control the engine.
+		~1-2 hours. (If everything has been decided, then it will just take 5 minutes. But there may be some discussion?)
+	3. With Berhane and Mihail:
+		Find energy limitations for onboard computer system.
+		~20 minutes. Just to confirm when all the hardware has been "chosen" if it fits okay.
+	4. Alone:
+		- Decide/figure out type of antenna and communication protocol (~6-10 hours)
+		- Collect and design the program structure (~ 2-4 hours, depending on how nice graphs/diagrams we want)
+		- Figure out how to connect with/use GPS (Don't really know, guesstimate: 2-4 hours?)
+		- Find hardware for embedded system and antenna (Guesstimate: ~2-4 hours)
