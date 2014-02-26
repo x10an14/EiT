@@ -1,0 +1,11 @@
+20. Input and algorithm for the sediment data and pathing for the sediment data and pathing:
+
+Algorithm:
+	"Lawn mower coverage" is the closest simple algorithm to what we're trying to accomplish. That is an NP-Hard problem.
+	Using a square grid encompassing all of the reservoir's water surfaces, it is simple to eliminate all points of the grid not on water, if we have the coordinates for the boundaries of the reservoir.
+	Then, from any random starting point within the grid, the R.O.V. can progress in a straight line as long as the first gridpoint on that beam hasn't been visited before.
+	When the R.O.V. then hits the edge, it randomly chooses between the closest "unvisited" gridpoints, selects one, and then repeats.
+	This algorithm may make the U.S.V. (Unmanned Surface Vehicle) criss-cross the reservoir, but as long as it follows two perpendicular x- and y-axises, the amount of "crosses" to cover the reservoir will not increase by any significant amount.
+
+Sensor input:
+	Sajana found out that the sensor used in a previous survey did not use frequencies above 200kHz. Water depth of said reservoir is unknown at the time being, seeing as the water depth plays a role in deciding frequencies for the sonar. But it's a start.
