@@ -9,3 +9,5 @@ Algorithm:
 
 Sensor input:
 	Sajana found out that the sensor used in a previous survey did not use frequencies above 200kHz. Water depth of said reservoir is unknown at the time being, seeing as the water depth plays a role in deciding frequencies for the sonar. But it's a start.
+
+Remember to constrict your work to your field of study. Do the pathing algorithm properly, mathematically.
